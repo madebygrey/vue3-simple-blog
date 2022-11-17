@@ -7,11 +7,11 @@ import PostSinglePage from '@/pages/PostSinglePage.vue';
 import PostPageWithStore from '@/pages/PostPageWithStore.vue';
 
 const routes = [
-    { path: '/', component: Main },
-    { path: '/posts', component: PostPage },
-    { path: '/about', component: About },
-    { path: '/posts/:id', component: PostSinglePage },
-    { path: '/store', component: PostPageWithStore }
+    { path: '/vue3-simple-blog/', component: Main },
+    { path: '/vue3-simple-blog/posts', component: PostPage },
+    { path: '/vue3-simple-blog/about', component: About },
+    { path: '/vue3-simple-blog/posts/:id', component: PostSinglePage },
+    { path: '/vue3-simple-blog/store', component: PostPageWithStore }
 ]
 
 const router = createRouter({
